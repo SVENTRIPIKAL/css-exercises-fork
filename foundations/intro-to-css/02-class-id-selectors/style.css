@@ -1,6 +1,4 @@
-.odd1,
-.odd2,
-.odd3 {
+.odd {
     background-color: rgb(255,167,182);
     font-family: Veranda, "DejaVu Sans", sans-serif;
 }
@@ -8,7 +6,7 @@
     color: hsl(240,100%,50%);
     font-size: 36px;
 }
-.odd2 {
+.odd3 {
     font-size: 24px;
 }
 #elm4 {
