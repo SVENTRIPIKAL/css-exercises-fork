@@ -6,11 +6,10 @@
     color: hsl(240,100%,50%);
     font-size: 36px;
 }
-.odd3 {
+.fs-24px {
     font-size: 24px;
 }
 #elm4 {
     background-color: #90ee90;
-    font-size: 24px;
     font-weight: bold;
 }
