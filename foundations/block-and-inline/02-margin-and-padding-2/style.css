@@ -1,7 +1,43 @@
 body {
-  background: #eee;
+  /*background: green;*/
   font-family: sans-serif;
 }
+
+div.card {
+  /*background-color: red;*/
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/*div .title {
+  background-color: blueviolet;
+}
+
+div.content {
+  background-color: pink;
+}*/
+
+div.button-container {
+  /*background-color: burlywood;*/
+  text-align: center;
+}
+
+div button {
+  display: block;
+  padding-inline: 20px;
+  padding-block: 6px;
+  margin-inline: auto;
+}
+
+div .title,
+div.content,
+div.button-container {
+  padding: 10px;
+  font-size: 15px;
+  margin-block: 8px;
+}
+
+
 
 .card {
   width: 400px;
