@@ -41,10 +41,12 @@ div.main-container {
 div.header-close-container {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 div.header {
   font-weight: bold;
+  font-size: 20px;
 }
 
 button.close-button {
