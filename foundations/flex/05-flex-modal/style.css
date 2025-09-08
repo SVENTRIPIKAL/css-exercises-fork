@@ -62,6 +62,10 @@ button.close-button {
   padding: 0;
 }
 
+div.text-container {
+  margin-bottom: 15px;
+}
+
 
 
 html, body {
