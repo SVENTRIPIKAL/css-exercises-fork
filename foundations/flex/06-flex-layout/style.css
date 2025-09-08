@@ -23,7 +23,7 @@ ul.right-links {
 }
 
 div.footer {
-  background-color: lightgray;
+  background-color: #E9E9E7;
 }
 
 
@@ -68,4 +68,9 @@ ul {
   gap: 20px;
   list-style: none;
   padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #7D7C7C;
 }
