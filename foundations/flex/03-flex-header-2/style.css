@@ -7,6 +7,8 @@ you'll learn about it later. */
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  padding: 10px;
+  gap: 20px;
 }
 
 
@@ -14,7 +16,6 @@ div.logo-container,
 ul.links {
   display: flex;
   align-items: center;
-  margin: 10px;
 }
 
 .logo {
@@ -34,6 +35,12 @@ ul.links {
 }
 
 
+
+div.user-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
 .profile-image {
   background: rebeccapurple;
