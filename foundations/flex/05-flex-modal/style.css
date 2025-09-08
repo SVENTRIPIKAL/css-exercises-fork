@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-.modal {
+div.modal {
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -13,7 +13,12 @@
 
 
 
-.icon {
+div.icon-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+div.icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
@@ -38,7 +43,11 @@ div.header-close-container {
   justify-content: space-between;
 }
 
-.close-button {
+div.header {
+  font-weight: bold;
+}
+
+button.close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
