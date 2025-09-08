@@ -8,19 +8,13 @@
 
 
 
-div.logo-container {
-  display: flex;
-  justify-content: center;
-  flex: 1;
-  margin-inline: 10px;
-}
-
 .logo {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-inline: 10px;
 }
 
 
@@ -49,33 +43,3 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-
-
-
-/* 
-  .header  {
-    font-family: monospace;
-    background: papayawhip;
-  }
-
-  .logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: tomato;
-    background: white;
-    padding: 4px 32px;
-  }
-
-  ul {
-    this removes the dots on the list items
-    list-style-type: none;
-  }
-
-  a {
-    font-size: 22px;
-    background: white;
-    padding: 8px;
-    this removes the line under the links
-    text-decoration: none;
-  }
-*/
