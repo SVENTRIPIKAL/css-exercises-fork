@@ -2,6 +2,77 @@
 you'll learn about it later. */
 @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
 
+.header {
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+}
+
+
+div.logo-container,
+ul.links {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo {
+  color: rebeccapurple;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+ul.links {
+  list-style-type: none;
+  padding: 0;
+  gap: 20px;
+  flex: 1;
+}
+
+
+
+.profile-image {
+  background: rebeccapurple;
+  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+
+
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: rebeccapurple;
+  color: white;
+  padding: 8px 24px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+
+
+/* 
+
+this is some magical font-importing. 
+you'll learn about it late 
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
 body {
   margin: 0;
   background: #eee;
@@ -38,7 +109,7 @@ button {
 }
 
 a {
-  /* this removes the line under our links */
+  this removes the line under our links
   text-decoration: none;
   color: rebeccapurple;
 }
@@ -46,3 +117,5 @@ a {
 ul {
   list-style-type: none;
 }
+
+*/
