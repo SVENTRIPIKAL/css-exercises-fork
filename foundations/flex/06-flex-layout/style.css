@@ -7,7 +7,6 @@ div.content {
   display: flex;
   flex-direction: column;
   flex: 1;
-  margin: 20px;
 }
 
 
@@ -18,12 +17,20 @@ div.footer {
   justify-content: space-between;
 }
 
+ul.left-links,
+ul.right-links {
+  padding-inline: 20px;
+}
+
+div.footer {
+  background-color: lightgray;
+}
+
 
 
 div.content {
   justify-content: center;
   align-items: center;
-  flex: 1;
   gap: 20px;
 }
 
@@ -54,4 +61,11 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
 }
