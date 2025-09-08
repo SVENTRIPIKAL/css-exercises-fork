@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
+
+div.page-container,
+div.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 20px;
+}
+
+
+
+div.header, 
+div.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+div.content {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: 20px;
+}
+
+
+
 body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  /*  */
+  display: flex;
 }
 
 img {
