@@ -3,22 +3,31 @@ div.header {
   background: darkmagenta;
   color: white;
   /*  */
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: 900;
+  font-size: 32px;
 }
 
 div.sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  /*  */
-  flex: 0.15;
+}
+
+div.cards-container {
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 30px;
 }
 
 div.card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /*  */
+  width: 315px;
+  height: 315px;
+  padding: 15px;
+  font-weight: bold;
 }
 
 div.footer {
@@ -47,6 +56,7 @@ ul {
 a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 
@@ -65,7 +75,7 @@ body, ul {
 
 div.header,
 div.sidebar {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 
 body, ul {
