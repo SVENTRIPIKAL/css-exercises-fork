@@ -1,11 +1,7 @@
-div.content-container {
-  flex: 1;
-}
-
 div.content-container,
-div.side-bar-container,
 div.cards-container {
   display: flex;
+  flex: 1
 }
 
 
@@ -26,6 +22,9 @@ div.sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  /*  */
+  flex: 0.15;
+  padding-left: 20px;
 }
 
 div.card {
@@ -52,4 +51,17 @@ body {
   /*  */
   display: flex;
   flex-direction: column;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
