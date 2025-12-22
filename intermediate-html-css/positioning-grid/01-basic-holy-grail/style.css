@@ -8,6 +8,8 @@ html {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(8, 100px);
+    row-gap: 1em;
+    column-gap: 1em;
     text-align: center;
     height: 100%;
     padding: 16px;
