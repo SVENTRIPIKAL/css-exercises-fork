@@ -1,10 +1,13 @@
 body,
 html {
-    height: 100%;
     margin: 0;
+    height: 100%;
 }
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 100px);
     text-align: center;
     height: 100%;
     padding: 16px;
@@ -12,7 +15,6 @@ html {
 }
 
 .container div {
-    display: grid;
     padding: 15px;
     font-size: 32px;
     font-family: Helvetica;
@@ -23,18 +25,26 @@ html {
 
 .header {
     background-color: #006157;
+    grid-column: 1/span 8;
+    grid-row: 1;
 }
 
 .sidebar {
     background-color: #005B94;
+    grid-column: 1/span 2;
+    grid-row: 2/span 6;
 }
 
 .nav {
     background-color: #642cde;
+    grid-column: 3/span 6;
+    grid-row: 2;
 }
 
 .article {
     background-color: #7E1DC3;
+    grid-column: 3/span 6;
+    grid-row: 3/span 5;
 }
 
 .article p {
@@ -46,4 +56,6 @@ html {
 
 .footer {
     background-color: #393f4d;
+    grid-column: 1/span 8;
+    grid-row: 8;
 }
