@@ -9,6 +9,10 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  gap: 15px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: repeat(2, 1fr) 6fr 1fr;
 }
 
 .container div {
