@@ -40,8 +40,15 @@
     margin-top: 15px;
 }
 
+.container .main-middle-container {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
 .sidebar {
   background-color: #C50208;
+  display: grid;
 }
 
 .sidebar .photo {
@@ -58,19 +65,32 @@
   color: black;
   font-size: 16px;
   font-weight: normal;
+  margin-top: 25px;
+}
+
+.container .middle-container {
+    padding: 0;
 }
 
 .nav {
-  background-color: #C50208;
+    background-color: #C50208;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
 }
 
 .nav ul li {
   font-size: 16px;
   text-transform: uppercase;
+  list-style-type: none;
 }
 
 .article {
   background-color: #bccbde;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .article p {
